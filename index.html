@@ -62,7 +62,7 @@
     <!--seccion 1-->
     <main>
       <section class="intro">
-        <div class="container col-xxl-8 px-4 py-2">
+        <div class="container col-xxl-8 px-4 py-4">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-2">
             <div class="col-10 col-sm-8 col-lg-6">
               <img src="images/equipo.jpg" class="d-block mx-lg-auto img-fluid" alt="Foto de un equipo unido." width="700" height="500" loading="lazy">
@@ -81,52 +81,97 @@
 
       <!--seccion CARACTERISTICAS-->
       <section class="secCaracteristicas">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <h2>Características</h2>
+        <!--Prueba Bootstrap-->
+        <!-- Para estudiar: ver cómo incorporar íconos
+
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+          <symbol id="people-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"></path>
+          <symbol id="collection" viewBox="0 0 16 16">
+            <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z"></path>
+          </symbol>
+          <symbol id="chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+          </symbol>
+        </svg>
+
+        <div class="container px-4 py-3" id="featured-3">
+          <h2 class="pb-2 border-bottom">Columns with icons</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+              </div>
+              <h3 class="fs-2">Featured title</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="icon-link d-inline-flex align-items-center">
+                Call to action
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+              </div>
+              <h3 class="fs-2">Featured title</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="icon-link d-inline-flex align-items-center">
+                Call to action
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+              </div>
+              <h3 class="fs-2">Featured title</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="icon-link d-inline-flex align-items-center">
+                Call to action
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        -->
+
+        <div class="container px-4 py-3" id="featured-3">
+          <h2 class="pb-2 border-bottom">Propuesta de valor</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+            <div class="feature col">
+              <h3 class="fs-2 text-primary">Valor 1</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed voluptas sequi dolor, eligendi iure qui culpa.</p>
+              <a href="#" class="icon-link d-inline-flex align-items-center">
+                Ver más
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+
+            <div class="feature col">
+              <h3 class="fs-2 text-primary">Valor 2</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex inventore quae nostrum molestiae sed voluptas tenetur aliquam nihil.</p>
+              <a href="#" class="icon-link d-inline-flex align-items-center">
+                Ver más
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+
+            <div class="feature col">
+              <h3 class="fs-2 text-primary">Valor 3</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur sapiente libero facilis laboriosam ullam ad inventore.</p>
+              <a href="#" class="icon-link d-inline-flex align-items-center">
+                Ver más
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+              </a>
             </div>
           </div>
         </div>
 
-        <div class="container">
-          <div class="row">
-            <div class="flexcont">
-              <div class="col">
-                <div class="caract__box">
-                  <h2>Caja 1</h2>
-                  <img
-                    class="imganCentrada"
-                    src="images/soon.jpg"
-                    alt="Caja 1"
-                  />
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="caract__box">
-                  <h2>Caja 2</h2>
-                  <img
-                    class="imganCentrada"
-                    src="images/soon.jpg"
-                    alt="Caja 2"
-                  />
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="caract__box">
-                  <h2>Caja 3</h2>
-                  <img
-                    class="imganCentrada"
-                    src="images/soon.jpg"
-                    alt="Caja 3"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
     </main>
 
