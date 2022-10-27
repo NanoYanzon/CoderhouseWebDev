@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 /*general*/
-body {
+/*body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
@@ -51,7 +51,7 @@ svg {
 }
 
 /*imagen centrada para cajas*/
-.imganCentrada {
+/*.imganCentrada {
   margin: 1rem 0;
   max-width: 100%;
   display: block;
@@ -59,7 +59,7 @@ svg {
 }
 /*============================*/
 /*header*/
-header {
+/*header {
   background-color: #f2f2f2;
   padding: 0.5rem 0;
   position: sticky;
@@ -89,7 +89,7 @@ header {
 
 /*===========================*/
 /*Index*/
-.intro {
+/*.intro {
   background-color: #0583f2;
   padding: 3rem 0 3rem 0;
   font-weight: 700;
@@ -136,7 +136,7 @@ header {
 
 /*==========================*/
 /*PAGINA SOFTWARE*/
-.softwarepage {
+/*.softwarepage {
   background-color: #f2f2f2;
 }
 
@@ -183,7 +183,7 @@ header {
 
 /*==========================*/
 /*PAGINA Precios*/
-.pricepage {
+/*.pricepage {
   background-color: #0583f2;
 }
 
@@ -220,7 +220,7 @@ header {
 
 /*==========================*/
 /*PAGINA Nosotros*/
-.nosotros {
+/*.nosotros {
   background-color: #0583f2;
   color: #f2f2f2;
   display: flex;
@@ -264,7 +264,7 @@ header {
 
 /*==========================*/
 /*Contacto*/
-.contacto {
+/*.contacto {
   background-color: #0583f2;
   font-size: 1.1rem;
 }
@@ -299,7 +299,7 @@ header {
 
 /*==========================*/
 /*FOOTER*/
-.footer {
+/*.footer {
   padding-top: 0rem;
   background-color: #023e73;
 }
