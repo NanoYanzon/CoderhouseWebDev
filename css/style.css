@@ -91,6 +91,11 @@ svg {
 
 /*===========================*/
 /*Index*/
+
+.gradiente {
+  background: linear-gradient(#023e73, #0583f2);
+  border-radius: 1rem;
+}
 /*.intro {
   background-color: #0583f2;
   padding: 3rem 0 3rem 0;
@@ -301,6 +306,10 @@ svg {
 
 /*==========================*/
 /*FOOTER*/
+/*.footer {
+  background: linear-gradient(#023e73, #f2f2f2);
+}
+
 /*.footer {
   padding-top: 0rem;
   background-color: #023e73;
