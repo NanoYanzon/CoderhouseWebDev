@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gradiente {
+  background: linear-gradient($azuloscuro, $azul);
+  border-radius: 1rem;
+}

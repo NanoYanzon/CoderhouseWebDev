@@ -1,0 +1,13 @@
+$azul: #0583f2;
+$azuloscuro: #023e73;
+$gris: #f2f2f2;
+
+.textoazuloscuro {
+  @include colordetexto($azuloscuro);
+}
+.textoazul {
+  @include colordetexto($azul);
+}
+.textogris {
+  @include colordetexto($gris);
+}
