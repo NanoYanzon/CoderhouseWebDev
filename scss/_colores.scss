@@ -11,3 +11,11 @@ $gris: #f2f2f2;
 .textogris {
   @include colordetexto($gris);
 }
+
+.fondoazuloscuro {
+  background-color: $azuloscuro;
+  @include colordetexto($gris);
+}
+.fondoazul {
+  background-color: $azul;
+}
