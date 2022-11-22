@@ -24,51 +24,60 @@
       rel="stylesheet"
     />
     <!-- linkear nuestro css -->
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/custom.css" />
     <!-- SEO -->
     <meta name="description" content="Conocé al equipo detras de mejorando software">
     <meta name="keywords" content="nosotros, equipo, gestión, mejora continua, calidad, optimización, lean, management, software">
   </head>
   <body>
     <!-- header -->
-    <div class="container">
-      <header
-        class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom"
-      >
-        <a class="navbar-brand" href="../index.html">
-          <img src="../images/logoipsum-243.svg" alt="Logo" />
-        </a>
+    <script src="../js/bootstrap.js"></script>
 
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="../index.html" class="nav-link">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a href="software.html" class="nav-link">Software</a>
-          </li>
-          <li class="nav-item">
-            <a href="precios.html" class="nav-link">Precios</a>
-          </li>
-          <a href="#" class="nav-link active" aria-current="page">Nosotros</a>
-          <li class="nav-item">
-            <a href="contacto.html" class="nav-link">Contacto</a>
-          </li>
-        </ul>
+      <header>
+        <nav class="navbar navbar-expand-lg bg-secondary">
+          <div class="container">
+            <a class="navbar-brand" href="../index.html"><img src="../images/logoipsum-243.svg" alt="Logo" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="container justify-content-between"> 
+              </div>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="../index.html" class="nav-link">Inicio</a>
+                </li>  
+                <li class="nav-item">
+                  <a href="software.html" class="nav-link" >Software</a>
+                </li>
+                <li class="nav-item">
+                  <a href="precios.html" class="nav-link">Precios</a>
+                </li>
+                <li class="nav-item">
+                  <a href="nosotros.html" class="nav-link active" aria-current="page">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contacto.html" class="nav-link">Contacto</a>
+                </li>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
       </header>
-    </div>
     <main>
       <!--seccion 1-->
-      <section class="nosotros">
-
-        <!--Bootstrap-->
-        <div class="container col-xxl-8 px-4 py-1">
+      <section class="nosotros ">
+        <div class="container col-xxl-10 px-4 py-1 mt-5">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
             <div class="col-10 col-sm-8 col-lg-6">
               <img src="../images/nosotros.jpg"
               alt="Foto del equipo de Mejorando." class="d-block mx-lg-auto img-fluid" width="700" height="1200" loading="lazy">
             </div>
             <div class="col-lg-6">
-              <h1 class="display-5 fw-bold lh-1 mb-3 textoazuloscuro ">Nuestra historia</h1>
+              <h1 class="display-4 lh-1 mb-3 textoazuloscuro  ">Nuestra historia</h1>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga
                 nulla harum alias possimus recusandae illo tempore voluptas
@@ -100,16 +109,15 @@
             </div>
           </div>
         </div>
-        <!--fin Bootstrap-->
         </div>
       </section>
 
       <!--seccion 2-->
 
-      <div class="container py-3 text-center">
+      <div class="container py-3 text-center ">
             <h3 class="textoazuloscuro">Encontranos en Mendoza</h3>
       </div>
-      <div class="container justify-content-center align-items-center text-center">
+      <div class="container justify-content-center align-items-center text-center  mb-4">
         <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.141920385161!2d-68.84674718519136!3d-32.89441578093671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0910431211f5%3A0x4e512e3299f70ea2!2sAv.%20Col%C3%B3n%2C%20M5500%20Mendoza!5e0!3m2!1ses-419!2sar!4v1664937048523!5m2!1ses-419!2sar"
         width="900"
@@ -121,36 +129,31 @@
       </div>
     </main>
 
-    <!-- footer-->
-
-    <div class="fondoazuloscuro">
-      <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <div class="col-md-4 d-flex align-items-center">
-            <span class="mb-3 mb-md-0 textogris">Buscanos en las redes</span>
-          </div>
+        <!-- footer-->
+        <div class="bg-secondary">
+          <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 ">
+              <div class="col-md-4 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 textoazuloscuro">Buscanos en las redes</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3 px-1"><a class="textoazuloscuro" href="#"><i class="fab fa-facebook"></i></a></li>
+                <li class="ms-3 px-1"><a class="textoazuloscuro" href="#"><i class="fab fa-instagram"></i></a></li>
+                <li class="ms-3  px-1"><a class="textoazuloscuro" href="#"><i class="fab fa-twitter"></i></a></li>
+              </ul>
       
-          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3 px-3"><a class="textogris" href="#"><i class="fab fa-facebook"></i></a></li>
-            <li class="ms-3 px-3"><a class="textogris" href="#"><i class="fab fa-instagram"></i></a></li>
-            <li class="ms-3  px-3"><a class="textogris" href="#"><i class="fab fa-twitter"></i></a></li>
-          </ul>
-  
-        <div class="container">
-            <div class="col d-flex align-items-center justify-content-center">
-              <p class="textogris">&copy; Copyright 2022 <a href="#">Mejorando Software</a> | Creada
-              por <a href="nanoyanzon.com">Nano Yanzon</a></p>            
+            <div class="container">
+                <div class="col d-flex align-items-center justify-content-center">
+                  <p class="textoazuloscuro">&copy; Copyright 2022 <a href="#" class="textoazul">Mejorando Software</a> | Creada
+                  por <a href="nanoyanzon.com" class="textoazul">Nano Yanzon</a></p>            
+                </div>
+              </div>
             </div>
+            </footer>
+    
+    
           </div>
-        </div>
-        </footer>
-
-
-      </div>
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
   </body>
 </html>

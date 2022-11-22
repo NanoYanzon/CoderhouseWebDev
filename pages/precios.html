@@ -29,51 +29,61 @@
       rel="stylesheet"
     />
     <!-- linkear nuestro css -->
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/custom.css" />
     <!-- SEO -->
     <meta name="description" content="Precios del software mejorando">
     <meta name="keywords" content="precios, gestión, mejora continua, calidad, optimización, lean, management, software">
   </head>
   <body>
     <!-- header -->
-    <div class="container">
-      <header
-        class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom"
-      >
-        <a class="navbar-brand" href="../index.html">
-          <img src="../images/logoipsum-243.svg" alt="Logo" />
-        </a>
+    <script src="../js/bootstrap.js"></script>
 
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="../index.html" class="nav-link">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a href="software.html" class="nav-link">Software</a>
-          </li>
-          <a href="#" class="nav-link active" aria-current="page">Precios</a>
-          <li class="nav-item">
-            <a href="nosotros.html" class="nav-link">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a href="contacto.html" class="nav-link">Contacto</a>
-          </li>
-        </ul>
+      <header>
+        <nav class="navbar navbar-expand-lg bg-secondary">
+          <div class="container">
+            <a class="navbar-brand" href="../index.html"><img src="../images/logoipsum-243.svg" alt="Logo" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="container justify-content-between"> 
+              </div>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a href="../index.html" class="nav-link">Inicio</a>
+                </li>  
+                <li class="nav-item">
+                  <a href="software.html" class="nav-link" >Software</a>
+                </li>
+                <li class="nav-item">
+                  <a href="precios.html" class="nav-link active" aria-current="page">Precios</a>
+                </li>
+                <li class="nav-item">
+                  <a href="nosotros.html" class="nav-link">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contacto.html" class="nav-link">Contacto</a>
+                </li>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </header>
-    </div>
 
     <main>
 
       <!--Bootstrap-->
       <div class="container py-3">
         <div class="p-3 pb-md-4 mx-auto text-center">
-          <h1 class="display-5 fw-bold lh-1 mb-3 textoazuloscuro ">Precios</h1>
+          <h1 class="display-4 lh-1 mb-3 textoazuloscuro ">Precios</h1>
           <p class="fs-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa magni beatae delectus recusandae modi sed. Pariatur eveniet dolor soluta iste!</p>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-          <div class="col">
-            <div class="card mb-4 roundcorner">
-              <div class="card-header py-3">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center ">
+          <div class="col  ">
+            <div class="card mb-4">
+              <div class="card-header py-3  ">
                 <h4 class="my-0 fw-normal textoazuloscuro">Gratuito</h4>
               </div>
               <div class="card-body">
@@ -88,7 +98,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mb-4 roundcorner">
+            <div class="card mb-4">
               <div class="card-header py-3">
                 <h4 class="my-0 fw-normal textoazuloscuro">Premium</h4>
               </div>
@@ -103,10 +113,10 @@
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card mb-4 roundcorner border-primary">
-              <div class="card-header py-3 text-bg-primary border-primary">
-                <h4 class="my-0 fw-normal textoazuloscuro">Empresas</h4>
+          <div class="col ">
+            <div class="card mb-4">
+              <div class="card-header py-3 bg-primary ">
+                <h4 class="my-0 fw-normal textogris fw-bold">Empresas</h4>
               </div>
               <div class="card-body">
                 <h1 class="card-title pricing-card-title textoazuloscuro">$29<small class="text-muted fw-light">/mes</small></h1>
@@ -125,23 +135,23 @@
     </main>
 
     <!-- footer-->
-    <div class="fondoazuloscuro">
+    <div class="bg-secondary">
       <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 ">
           <div class="col-md-4 d-flex align-items-center">
-            <span class="mb-3 mb-md-0 textogris">Buscanos en las redes</span>
+            <span class="mb-3 mb-md-0 textoazuloscuro">Buscanos en las redes</span>
           </div>
       
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3 px-3"><a class="textogris" href="#"><i class="fab fa-facebook"></i></a></li>
-            <li class="ms-3 px-3"><a class="textogris" href="#"><i class="fab fa-instagram"></i></a></li>
-            <li class="ms-3  px-3"><a class="textogris" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="ms-3 px-1"><a class="textoazuloscuro" href="#"><i class="fab fa-facebook"></i></a></li>
+            <li class="ms-3 px-1"><a class="textoazuloscuro" href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="ms-3  px-1"><a class="textoazuloscuro" href="#"><i class="fab fa-twitter"></i></a></li>
           </ul>
   
         <div class="container">
             <div class="col d-flex align-items-center justify-content-center">
-              <p class="textogris">&copy; Copyright 2022 <a href="#">Mejorando Software</a> | Creada
-              por <a href="nanoyanzon.com">Nano Yanzon</a></p>            
+              <p class="textoazuloscuro">&copy; Copyright 2022 <a href="#" class="textoazul">Mejorando Software</a> | Creada
+              por <a href="nanoyanzon.com" class="textoazul">Nano Yanzon</a></p>            
             </div>
           </div>
         </div>
@@ -150,20 +160,5 @@
 
       </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
