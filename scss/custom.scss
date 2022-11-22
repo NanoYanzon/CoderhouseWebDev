@@ -3,11 +3,7 @@
 
 // Include any default variable overrides here (though functions won't be available)
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-$font-family-base: "Montserrat", sans-serif;
-$primary: #0583f2;
-$secondary: #f2f2f2;
-$dark: #023e73;
-$border-radius: 20px;
+@import "variables";
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -17,7 +13,7 @@ $border-radius: 20px;
 @import "globals";
 
 //Variables
-@import "variables";
+
 @import "colores";
 
 //Partials
