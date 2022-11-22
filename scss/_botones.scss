@@ -13,6 +13,7 @@
     display: inline-block;
     position: relative;
     transition: 0.5s;
+    color: $gris;
     &:after {
       content: "\00bb";
       position: absolute;
@@ -48,6 +49,7 @@
     display: inline-block;
     position: relative;
     transition: 0.5s;
+    color: $gris;
     &:after {
       content: "\00bb";
       position: absolute;

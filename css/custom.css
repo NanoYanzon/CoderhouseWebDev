@@ -10813,6 +10813,7 @@ textarea.form-control-lg {
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  color: #f2f2f2;
 }
 .boton span:after {
   content: "»";
@@ -10846,6 +10847,7 @@ textarea.form-control-lg {
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  color: #f2f2f2;
 }
 .botonchico span:after {
   content: "»";
